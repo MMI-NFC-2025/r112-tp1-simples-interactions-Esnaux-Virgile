@@ -11,5 +11,7 @@ enRougeSuiteAClick.addEventListener("click", (evt)=>{
 });
 
 // Trouvez les 'H2' du document
-const collH2 = document.querySelectorAll("h2")
-collH2.forEach((elm)=>{elm.addEventListener("click",(evt)=>{evt.target.style.color = "red"; }); });
+const collH2 = document.querySelectorAll("h2");
+collH2.forEach((elm)=>{elm.addEventListener("click",(evt)=>{
+    evt.target.style.color = "red"; }); 
+});
